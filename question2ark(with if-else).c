@@ -33,10 +33,27 @@ int main()
                        printf("The Amount entered is insufficient");
 
                     }
-                    }
+            }
             
     
+        else if(strcmp(c,"PEPS")==0)
+            {
+                printf("You have chosen Pepsi!\n");
+                printf("Enter 30 rs please:: ");
+                scanf("%d",&amt[0]);
+                if(amt[0]>=30)
+                    {
+                        printf("The change returned is:: %d\n Enjoy your Drink",amt[0]-30);
+                                       
+                    }
 
+                if(amt[0]<30)   
+                    {
+                        
+                       printf("The Amount entered is insufficient");
+
+                    }
+            }
     
 
 }
