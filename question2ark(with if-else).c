@@ -36,9 +36,9 @@ int main()
             }
             
     
-        else if(strcmp(c,"PEPS")==0)
+        else if(strcmp(c,"MDEW")==0)
             {
-                printf("You have chosen Pepsi!\n");
+                printf("You have chosen Mountain Dew!\n");
                 printf("Enter 30 rs please:: ");
                 scanf("%d",&amt[0]);
                 if(amt[0]>=30)
