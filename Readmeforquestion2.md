@@ -1,0 +1,6 @@
+**Hii Intro to my thought process on implementation of question 2**
+
+Task 2 introduced me to the working of finite state machines.These are the devices or functions which can exist in any one defined state at any given point in time. The numerous transitions exist between these states allow the machines to change its state of operations between the set of user-defined states
+The question was to implement the vending as a working case of a finite-state machine, i.e without the if -else statements . So I decided to use the while loop with the switch cases inculcated in it. This would allow smooth transitons from one state to other and also would allow easier addition of new states as cases in the switch statement.The code asks the user for the input code of the drink of his choice, checks it with the pre-defined states , and if the code matches proceeds to the payment part. 
+The payment part is again an intutive while loop which returns the difference of the amt paid and the cost of the drink, assuming the user enters the amount>=cost . The switch case breaks out after this and refreshes for a new user input.
+There also an inherent product count decresing inside the each case of the switch case , if the net number of all the product reaches zero the code will terminate with a message to signify the machine is out of drinks.

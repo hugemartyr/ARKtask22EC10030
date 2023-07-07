@@ -107,7 +107,7 @@ int main()
     
     }   
     
-
+printf("Out of drinks");
     
 return 0;
 }
