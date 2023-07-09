@@ -1,3 +1,5 @@
 **Hii Intro to my thought process on implementation of question 4**
 
-This task introduced me to ROS and using software enhancements to run diff OS on my Mac.I first was overwhelmed by
+1.This task introduced me to ROS and using software enhancements to run diff OS on my Mac.I first was overwhelmed by how would I be able to understand the terms, like the 8-bit and 3 channel image had me dumbstruck but when I read online resources about it the things got simplified a bit . ROS usage and manipulation couldn't be handled by me so ihad to again stick to writing down my logic as a readme text
+
+2.I realised this task requires a higher level of understanding of catkin and ROS than I imagined. I am stuck and can't make head or tail of this task ngl. I tried googling easy tutorials but got stuck as they went on to define some more weird terms like 'melodic' which I later realised is just a diff version of the software. So dejectedly i had to give up this task.
